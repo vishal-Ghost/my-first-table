@@ -1,0 +1,59 @@
+    .div1 table
+    {
+    border-spacing: 0;
+    /* background-color: rgb(192, 159, 223); */
+    }
+    .div1 th
+    {
+      border: 1px solid black;
+      padding: 5px;
+      width: 89.5px;
+      min-width: 89.5px;
+      position: sticky;
+      top: 0;
+      background: grey;
+      color: aliceblue;
+    }
+    .div1 td
+    {
+      border: 1px solid black;
+      padding: 5px;
+      width: 80px;
+      min-width: 80px;
+    }
+    .div1
+    {
+      overflow: scroll;
+      border: 1px solid black;
+      width: calc(60vw - 30px);
+      height: calc(60vh - 30px);
+    }
+
+    .div1 th:nth-child(1),.div1 td:nth-child(1)
+    {
+      position:sticky;
+      left: 0;
+    }
+
+    .div1 th:nth-child(2),.div1 td:nth-child(2)
+    {
+      position:sticky;
+      left: 92px;
+    }
+
+    .div1 th:nth-child(3),.div1 td:nth-child(3)
+    {
+      position:sticky;
+      left: 184px;
+    }
+
+    .div1 td:nth-child(1),.div1 td:nth-child(2),.div1 td:nth-child(3)
+    {
+      background-color: aqua;
+    }
+
+    .div1 th:nth-child(1),.div1 th:nth-child(2),.div1 tH:nth-child(3)
+    {
+      z-index: 3;
+    }
+
